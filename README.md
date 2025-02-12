@@ -1,4 +1,4 @@
-![description of my waveform](imagename.png)
+![description of my waveform](waveform.png)
 
 ![sketch](sketch.jpeg)
 

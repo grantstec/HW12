@@ -47,3 +47,7 @@ source ripple_adder_tb.tcl
 close_sim
 launch_simulation
 source ripple_adder_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source ripple_adder_tb.tcl
