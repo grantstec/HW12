@@ -1,3 +1,13 @@
+![description of my waveform](imagename.png)
+
+![sketch](sketch.jpeg)
+
+
+## Documentation
+
+None
+
+
 # ECE 281 ICE 3: Ripple-Carry Adder with Top Level Design
 
 This is a **template** repository.
