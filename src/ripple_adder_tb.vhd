@@ -51,7 +51,12 @@ begin
        -- TODO, a few other test cases
        w_addends <= X"00"; w_Cin <='1'; wait for 10 ns;
            assert (w_sum = x"1" and w_Cout = '0') report "zero inputes but Cin" severity failure;
-
+       w_addends <= x"6A"; w_Cin <= '0'; wait for 10 ns;
+       assert (w_sum = x"0" and w_Cout = '1') 
+           report "Test Case 7 Failed: A = 10, B = 6, Cin = '0'" severity failure;
+       w_addends <= x"43"; w_Cin <= '1'; wait for 10 ns;
+       assert (w_sum = x"8" and w_Cout = '0') 
+           report "Test Case 8 Failed: A = 3, B = 4, Cin = '1'" severity failure;
        
 	
 		wait; -- wait forever
